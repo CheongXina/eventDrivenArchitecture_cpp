@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="cat.cpp" />
     <ClCompile Include="EventBroker.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="OBJECTBASE.cpp" />
@@ -134,6 +135,7 @@
     <ClCompile Include="puppet.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="cat.h" />
     <ClInclude Include="EventBroker.h" />
     <ClInclude Include="OBJECTBASE.h" />
     <ClInclude Include="ObjectParent.h" />

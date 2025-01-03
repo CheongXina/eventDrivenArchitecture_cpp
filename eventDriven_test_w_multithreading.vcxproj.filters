@@ -30,6 +30,9 @@
     <ClCompile Include="OBJECTBASE.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="cat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="EventBroker.h">
@@ -45,6 +48,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="OBJECTBASE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cat.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

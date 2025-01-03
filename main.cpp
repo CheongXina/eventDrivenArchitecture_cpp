@@ -2,6 +2,7 @@
 #include <string>
 #include "EventBroker.h"
 #include "puppet.h"
+#include "cat.h"
 #include <iostream>
 #include "ObjectParent.h"
 
@@ -15,6 +16,9 @@
 	EventBroker* eventBroker = new EventBroker();
 	for (char i{ 0 }; i < 3; i++) {
 		listeners.push_back(new puppet(eventBroker));
+	}
+	for (char i{ 0 }; i < 2; i++) {
+		listeners.push_back(new Cat(eventBroker));
 	}
 
 	std::cout << eventBroker->scream() << std::endl;
