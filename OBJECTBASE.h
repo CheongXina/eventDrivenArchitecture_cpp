@@ -3,7 +3,6 @@
 
 class __ObjectBASE {
 public:
-	//virtual std::string recieveMessage() = 0;
 	~__ObjectBASE();
 };
 
