@@ -1,0 +1,9 @@
+# Ignore build and IDE-specific folders
+x64/
+.vs/
+
+# Ignore user-specific Visual Studio files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
