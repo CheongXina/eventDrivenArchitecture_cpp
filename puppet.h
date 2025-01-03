@@ -12,7 +12,7 @@ typedef std::string(EventBroker::* memberFuncPtr)();
 class puppet : public ObjectParent
 {
 public:
-	std::string recieveMessage();
+	std::string recieveMessage() override;
 	void loadImages();
 	class EventBroker* screamerRef;
 	memberFuncPtr messageEvent;

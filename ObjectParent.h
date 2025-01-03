@@ -7,11 +7,11 @@
 class ObjectParent : public __ObjectBASE
 {
 public:
-	//bool broadCastRecieved();
+	bool broadCastRecieved();
 protected:
 	__ObjectBASE* baseInstance = this;
-	//std::string recieveMessage() override;
-	//std::vector<messageRecievedFuncPtr> functionsToCall;
+	std::string recieveMessage() override;
+	std::vector<messageRecievedFuncPtr> functionsToCall;
 	~ObjectParent();
 };
 

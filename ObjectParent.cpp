@@ -1,6 +1,6 @@
 #include "ObjectParent.h"
 
-/*
+
 bool ObjectParent::broadCastRecieved()
 {
     if (functionsToCall.empty()) {
@@ -10,13 +10,13 @@ bool ObjectParent::broadCastRecieved()
     }
     return true;
 }
-*/
-/*
+
+
 std::string ObjectParent::recieveMessage()
 {
     return "I am the parent class you shouldnt be seeing this";
 }
-*/
+
 ObjectParent::~ObjectParent()
 {
    // baseInstance = nullptr;

@@ -37,7 +37,8 @@ puppet::puppet(EventBroker* screamer)
 }
 
 void puppet::loadFunctionPointerTo_ParentListenList()
-{	
+{
+	functionsToCall.push_back(&__ObjectBASE::recieveMessage);
 	ObjectBASE_Event eventt;
 	eventt.boundObject = this;
 	eventt.boundEvent_static = &puppet::recieveMessageStatic;
